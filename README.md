@@ -219,39 +219,45 @@ content in both frequency and temporal domains. </span><span style='font-family:
 font-family:"Helvetica",sans-serif'>Programmatically, this can be represented with
 the following nested loop. </span></p>
 
+<br clear=ALL>
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
 150%'><span style='position:absolute;z-index:251696128;margin-left:-2px;
 margin-top:5px;width:727px;height:308px'><img width=727 height=308
-src="NSLHW2_files/image006.png"></span><span style='font-family:"Helvetica",sans-serif'>            </span></p>
+src="NSLHW2_files/image007.png"></span><span style='font-family:"Helvetica",sans-serif'>            </span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
 150%'><span style='font-family:"Helvetica",sans-serif'>&nbsp;</span></p>
+
+
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+150%'><span style='font-family:"Helvetica",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
+"Helvetica",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
+"Helvetica",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
+"Helvetica",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
+"Helvetica",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
+"Helvetica",sans-serif'>&nbsp;</span></p>
+
+
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
 150%'><span style='position:relative;z-index:251674624'><span style='position:
 absolute;left:798px;top:-40px;width:682px;height:228px'><img width=682
-height=228 src="NSLHW2_files/image007.png"></span></span><span
+height=228 src="NSLHW2_files/image008.png"></span></span><span
 style='font-family:"Helvetica",sans-serif'>&nbsp;</span></p>
 
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-150%'><span style='font-family:"Helvetica",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
-"Helvetica",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
-"Helvetica",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
-"Helvetica",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
-"Helvetica",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
-"Helvetica",sans-serif'>&nbsp;</span></p>
-
-<br clear=ALL>
+<table cellpadding=0 cellspacing=0 align=left>
+  <td><img width=558 height=329 src="NSLHW2_files/image008.png"></td>
 
 <p class=MsoCaption align=center style='margin-top:0in;margin-right:0in;
 margin-bottom:0in;margin-left:5.0in;margin-bottom:.0001pt;text-align:center;
@@ -266,16 +272,8 @@ text-indent:.5in'><span style='font-family:"Helvetica",sans-serif;color:windowte
 Axis is Frequency in Hz, Horizontal Axes is Time in Seconds.</span></p>
 
 <p class=MsoNormal align=center style='text-align:center'>
+ </table>
 
-<table cellpadding=0 cellspacing=0 align=left>
- <tr>
-  <td width=894 height=96></td>
- </tr>
- <tr>
-  <td></td>
-  <td><img width=558 height=329 src="NSLHW2_files/image008.png"></td>
- </tr>
-</table>
 
 <span style='font-size:10.0pt;line-height:107%;font-family:"Helvetica",sans-serif'>&nbsp;</span></p>
 
