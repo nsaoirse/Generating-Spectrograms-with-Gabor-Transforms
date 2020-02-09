@@ -228,27 +228,8 @@ src="NSLHW2_files/image007.png"></span><span style='font-family:"Helvetica",sans
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
 150%'><span style='font-family:"Helvetica",sans-serif'>&nbsp;</span></p>
 
-
-
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
 150%'><span style='font-family:"Helvetica",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
-"Helvetica",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
-"Helvetica",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
-"Helvetica",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
-"Helvetica",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
-"Helvetica",sans-serif'>&nbsp;</span></p>
-
-
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
 150%'><span style='position:relative;z-index:251674624'><span style='position:
