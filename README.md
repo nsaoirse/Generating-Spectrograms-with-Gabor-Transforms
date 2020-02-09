@@ -10,7 +10,7 @@
 
 <div class=WordSection1>
 
-<h1 style='margin-left:2.0in;text-indent:.5in'><span style='font-family:"Helvetica",sans-serif;
+<h1 align=center style='text-align:center'><span style='font-family:"Helvetica",sans-serif;
 color:windowtext'>Nicolette Lewis</span></h1>
 
 <h1 align=center style='text-align:center'><span style='font-family:"Helvetica",sans-serif;
@@ -64,9 +64,13 @@ seen in figure 1, with the signal on the left and its spectrogram on the right.
 <p class=MsoNormal style='text-indent:.5in;line-height:normal'>
 
 <table cellpadding=0 cellspacing=0>
-
-  <td><img width=586 height=235 src="NikkiLewisHomework2_files/image001.png"></td>
-
+ <tr>
+  <td width=22 height=0></td>
+ </tr>
+ <tr>
+  <td></td>
+  <td><img width=940 height=372 src="NSLHW2_files/image001.png"></td>
+ </tr>
 </table>
 
 <br clear=ALL>
@@ -158,7 +162,7 @@ integral, </span></p>
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
 normal'><span
 style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif'><img
-width=378 height=39 src="NikkiLewisHomework2_files/image002.png"></span></p>
+width=378 height=39 src="NSLHW2_files/image002.png"></span></p>
 
 <p class=MsoNormal style='line-height:normal'><span style='font-size:10.0pt;
 font-family:"Helvetica",sans-serif'>where the </span><span style='font-size:
@@ -166,20 +170,20 @@ font-family:"Helvetica",sans-serif'>where the </span><span style='font-size:
 as it varies with time and g(t, </span><span
 style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif;
 position:relative;top:3.0pt'><img width=6 height=17
-src="NikkiLewisHomework2_files/image003.png"></span><span style='font-size:
-10.0pt;font-family:"Helvetica",sans-serif'>) represents the Gabor Window which
-is utilized to filter the signal temporally. This can be represented in the
+src="NSLHW2_files/image003.png"></span><span style='font-size:10.0pt;
+font-family:"Helvetica",sans-serif'>) represents the Gabor Window which is
+utilized to filter the signal temporally. This can be represented in the
 following form, as found in Kutz’ <i>Data Driven Modelling and Scientific
 Computation.</i></span><span style='font-size:10.0pt;font-family:"Helvetica",sans-serif'>
 </span></p>
 
 <p class=MsoNormal><span
 style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif'><img
-width=233 height=21 src="NikkiLewisHomework2_files/image004.png"></span></p>
+width=233 height=21 src="NSLHW2_files/image004.png"></span></p>
 
 <p class=MsoNormal><span
 style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif'><img
-width=273 height=53 src="NikkiLewisHomework2_files/image005.png"></span></p>
+width=273 height=53 src="NSLHW2_files/image005.png"></span></p>
 
 <p class=MsoNormal style='text-indent:.5in'><span style='font-size:10.0pt;
 line-height:107%;font-family:"Helvetica",sans-serif'>By definition, a signal is
@@ -192,15 +196,12 @@ current window with artifacts from the previous (i.e. w0, t0 =1).</span></p>
 <h1><span style='font-family:"Helvetica",sans-serif;color:windowtext'>Sec. III.
 Algorithm Implementation and Development </span></h1>
 
-<p class=MsoNormal><span style='position:absolute;z-index:251696128;margin-left:
--39px;margin-top:232px;width:727px;height:274px'><img width=727 height=274
-src="NikkiLewisHomework2_files/image006.png"></span><span style='font-family:
-"Helvetica",sans-serif'>            </span><span style='font-size:10.0pt;
-line-height:107%;font-family:"Helvetica",sans-serif'>Implementation of this
-analysis was started by importing the music file as a vector into Matlab. The
-signals were then windowed over time with the following waveforms, in order to
-produce time samples of the signal which would then be Fourier transformed into
-the spectral domain. After the sample was windowed in time, the windowed
+<p class=MsoNormal><span style='font-family:"Helvetica",sans-serif'>            </span><span
+style='font-size:10.0pt;line-height:107%;font-family:"Helvetica",sans-serif'>Implementation
+of this analysis was started by importing the music file as a vector into
+Matlab. The signals were then windowed over time with the following waveforms, in
+order to produce time samples of the signal which would then be Fourier transformed
+into the spectral domain. After the sample was windowed in time, the windowed
 portion of the sample was transformed into the spectral domain. This
 transformed ‘slice’ of the signal at a particular window of time was appended
 to an array which held the Fourier transformations of the slices previous. By
@@ -218,53 +219,74 @@ content in both frequency and temporal domains. </span><span style='font-family:
 font-family:"Helvetica",sans-serif'>Programmatically, this can be represented with
 the following nested loop. </span></p>
 
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+150%'><span style='position:absolute;z-index:251696128;margin-left:-2px;
+margin-top:5px;width:727px;height:308px'><img width=727 height=308
+src="NSLHW2_files/image006.png"></span><span style='font-family:"Helvetica",sans-serif'>            </span></p>
 
-<table cellpadding=0 cellspacing=0 align=left>
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+150%'><span style='font-family:"Helvetica",sans-serif'>&nbsp;</span></p>
 
-  <td><img width=1 height=30 src="NikkiLewisHomework2_files/image007.png"></td>
- 
-</table>
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+150%'><span style='position:relative;z-index:251674624'><span style='position:
+absolute;left:798px;top:-40px;width:682px;height:228px'><img width=682
+height=228 src="NSLHW2_files/image007.png"></span></span><span
+style='font-family:"Helvetica",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+150%'><span style='font-family:"Helvetica",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
+"Helvetica",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
+"Helvetica",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
+"Helvetica",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
+"Helvetica",sans-serif'>&nbsp;</span></p>
+
+<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
+"Helvetica",sans-serif'>&nbsp;</span></p>
 
 <br clear=ALL>
 
-<p class=MsoNormal style='margin-left:1.0in;text-indent:.5in'><img width=544
-height=167 src="NikkiLewisHomework2_files/image008.png" align=left hspace=12></p>
-
-<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
-"Helvetica",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
-"Helvetica",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
-"Helvetica",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
-"Helvetica",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
-"Helvetica",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoNormal><span style='font-size:10.0pt;line-height:107%;font-family:
-"Helvetica",sans-serif'>&nbsp;</span></p>
-
-<p class=MsoCaption align=center style='margin-bottom:0in;margin-bottom:.0001pt;
-text-align:center;text-indent:.5in'><span style='font-family:"Helvetica",sans-serif;
-color:windowtext'>Figure </span><span
+<p class=MsoCaption align=center style='margin-top:0in;margin-right:0in;
+margin-bottom:0in;margin-left:5.0in;margin-bottom:.0001pt;text-align:center;
+text-indent:.5in'><span style='font-family:"Helvetica",sans-serif;color:windowtext'>Figure
+</span><span
 style='font-family:"Helvetica",sans-serif;color:windowtext'>3</span><span
 style='font-family:"Helvetica",sans-serif;color:windowtext'>: Spectrograms Representing
 Transition from Undersampled (left) to Oversampled (right),</span></p>
 
-<p class=MsoCaption align=center style='text-align:center;text-indent:.5in'><span
-style='font-family:"Helvetica",sans-serif;color:windowtext'>Vertical Axis is
-Frequency in Hz, Horizontal Axes is Time in Seconds.</span></p>
+<p class=MsoCaption align=center style='margin-left:4.5in;text-align:center;
+text-indent:.5in'><span style='font-family:"Helvetica",sans-serif;color:windowtext'>Vertical
+Axis is Frequency in Hz, Horizontal Axes is Time in Seconds.</span></p>
 
-<p class=MsoNormal align=center style='text-align:center'><span
-style='font-family:"Helvetica",sans-serif'><img width=552 height=291
-src="NikkiLewisHomework2_files/image009.png"></span></p>
+<p class=MsoNormal align=center style='text-align:center'>
 
-<h1 style='margin-top:0in'><span style='font-family:"Helvetica",sans-serif;
-color:windowtext'>Sec. IV. Computational Results </span></h1>
+<table cellpadding=0 cellspacing=0 align=left>
+ <tr>
+  <td width=894 height=96></td>
+ </tr>
+ <tr>
+  <td></td>
+  <td><img width=558 height=329 src="NSLHW2_files/image008.png"></td>
+ </tr>
+</table>
+
+<span style='font-size:10.0pt;line-height:107%;font-family:"Helvetica",sans-serif'>&nbsp;</span></p>
+
+<br clear=ALL>
+
+<h1 style='margin-top:0in'><span style='position:relative;z-index:251673600;
+left:-12px;top:0px;width:809px;height:510px'><img width=809 height=510
+src="NSLHW2_files/image009.png"></span><br clear=ALL>
+<img width=552 height=291 src="NSLHW2_files/image010.png" align=left hspace=12><span
+style='font-family:"Helvetica",sans-serif;color:windowtext'>Sec. IV.
+Computational Results </span></h1>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
 normal;page-break-after:avoid'><span style='font-size:10.0pt;font-family:"Helvetica",sans-serif'>            With
@@ -276,21 +298,24 @@ fidelity of the resolved frequency content to high fidelity of the temporal
 location of signal magnitudes, with losses in spectral fidelity. </span></p>
 
 <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-indent:
-.5in;line-height:normal'><span style='font-size:10.0pt;font-family:"Helvetica",sans-serif'>This
-effect is due to the nature of the analysis being subject to Heisenberg’s Uncertainty
-principle (where resolution is high in one inspected parameter, it is not
-without compromising resolution of another parameter). In addition to the
-effects of sample rates upon the frequency and temporal resolution of the
-signal, effects of window width and shape upon the fidelity of the spectrograms
-of Handel’s Messiah were investigated. Figure 4 depicts increasing resolution
-of the temporal perturbations in the signal with smaller windows in time, while
-frequency resolution decays as the windows in time shrink. This can be
-explained in the following way; In order for particular frequencies to be
-actualized within a spectral analysis, the wavelengths of the frequencies of
-interest must be able to fit within the windowed section of the signal. If such
-a wavelength does not fit within the window, the resolution of the frequency associated
-with it will be blurred across the spectral domain, since the wave will be attenuated.
-This attenuation of the signal frequencies from small time windows results in
+.5in;line-height:normal'><span style='position:absolute;z-index:251679744;
+left:0px;margin-left:-28px;margin-top:237px;width:624px;height:236px'><img
+width=624 height=236 src="NSLHW2_files/image011.png"></span><span
+style='font-size:10.0pt;font-family:"Helvetica",sans-serif'>This effect is due
+to the nature of the analysis being subject to Heisenberg’s Uncertainty principle
+(where resolution is high in one inspected parameter, it is not without
+compromising resolution of another parameter). In addition to the effects of
+sample rates upon the frequency and temporal resolution of the signal, effects
+of window width and shape upon the fidelity of the spectrograms of Handel’s
+Messiah were investigated. Figure 4 depicts increasing resolution of the
+temporal perturbations in the signal with smaller windows in time, while frequency
+resolution decays as the windows in time shrink. This can be explained in the
+following way; In order for particular frequencies to be actualized within a
+spectral analysis, the wavelengths of the frequencies of interest must be able
+to fit within the windowed section of the signal. If such a wavelength does not
+fit within the window, the resolution of the frequency associated with it will
+be blurred across the spectral domain, since the wave will be attenuated. This
+attenuation of the signal frequencies from small time windows results in
 uncertainty of spectral resolution with high temporal certainty, and the
 reverse is also true with larger windows in time.</span></p>
 
@@ -309,16 +334,7 @@ range frequency content with 512 time segments (Fig. 4d). (Note: For the rest
 of these comparisons the number of time increments used was 256. As can be seen
 from Figure 5, the shape of the time windowing function has an influence on the
 frequency resolution within the spectrogram. The Haar wave shape (Figure 5b)
-acts as a sink function around the time window of interest, resulting in </span>
-
-<table cellpadding=0 cellspacing=0>
-
-  <td><img width=577 height=385 src="NikkiLewisHomework2_files/image010.png"></td>
-
-</table>
-
-<br clear=ALL>
-<span style='font-size:10.0pt;font-family:"Helvetica",sans-serif'>frequency
+acts as a sink function around the time window of interest, resulting in frequency
 ranges resolved around primary frequencies; pretty neat! It provides great
 temporal resolution of the signal, with great uncertainty in the frequency
 domain. Mexican Hat  (Figure 5d) and Gaussian  (Figure 5a) windows have a
@@ -328,14 +344,8 @@ and more prone to the effects of undersampling. Shannon windows  (Figure 5c)  
 less uncertainty than Haar windows in the frequency domain, but their sharp
 corners still lend to noise effects from the rapid attenuation of wavelengths
 not fully resolved within the window. Shannon windows, like Haar windows,
-provide great temporal resolution of the signal, </span><img width=558
-height=329 src="NikkiLewisHomework2_files/image011.png" align=left hspace=12><span
-style='font-size:10.0pt;font-family:"Helvetica",sans-serif'>with less fidelity in
-the spectral domain than Gaussian or Mexican Hat windows. Using this knowledge,
-</span><span style='position:relative;z-index:251679744;left:-6px;top:0px;
-width:624px;height:236px'><img width=624 height=236
-src="NikkiLewisHomework2_files/image012.png"></span><br clear=ALL>
-<span style='font-size:10.0pt;font-family:"Helvetica",sans-serif'>spectrograms
+provide great temporal resolution of the signal, with less fidelity in the
+spectral domain than Gaussian or Mexican Hat windows. Using this knowledge, spectrograms
 of the song “Mary Had a Little Lamb” were generated and the notes played over
 time were determined and the maximum frequency of each time increment was plotted
 as a music score in Figure 6. The song was played both with a piano and a recorder,
@@ -472,12 +482,13 @@ Fourier Transform </span></span><span style='font-size:10.0pt;font-family:"Helve
 color:black'><a href="https://www.mathworks.com/help/matlab/ref/fftn.html"><span
 style='color:black'>https://www.mathworks.com/help/matlab/ref/fftn.html</span></a></span></p>
 
-<p style='margin-top:3.75pt;margin-right:0in;margin-bottom:0in;margin-left:
-.5in;margin-bottom:.0001pt;background:white'><span style='font-size:10.0pt;
-font-family:"Helvetica",sans-serif'>&nbsp;</span></p>
+</div>
 
-<h1 style='margin-top:0in;line-height:normal'><span style='font-family:"Helvetica",sans-serif;
-color:windowtext'>Appendix B MATLAB codes</span></h1>
+</body>
+
+</html>
+
+
 
 Appendix B MATLAB codes
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
