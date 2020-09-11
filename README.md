@@ -13,11 +13,6 @@
 <h1 align=center style='text-align:center'><span style='font-family:"Helvetica",sans-serif;
 color:windowtext'>Nicolette Lewis</span></h1>
 
-<h1 align=center style='text-align:center'><span style='font-family:"Helvetica",sans-serif;
-color:windowtext'>AMATH 582:&nbsp;Computational Methods for Data Analysis</span></h1>
-
-<h1 align=center style='text-align:center'><span style='font-family:"Helvetica",sans-serif;
-color:windowtext'> Homework 2 </span></h1>
 
 <h1 align=center style='text-align:center'><span style='font-family:"Helvetica",sans-serif;
 color:windowtext'> </span><span style='font-size:14.0pt;line-height:107%;
